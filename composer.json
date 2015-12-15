@@ -1,0 +1,21 @@
+{
+  "name": "gpcrocker88/ZendDirectoryInfo",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Graham Crocker",
+      "email": "grahampcrocker@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "4.8.19"
+  },
+  "autoload":{
+    "psr-4": {
+      "ZendDirectoryInfo\\": "classes/",
+      "ZendDirectoryInfo\\Tests\\" : "tests/"
+    }
+  }
+}
